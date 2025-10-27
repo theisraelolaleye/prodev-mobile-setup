@@ -1,0 +1,1 @@
+I downloaded expo-go on playstore and I signed up without any issue.
