@@ -16,7 +16,7 @@ const styles = StyleSheet.create({
     color: "#9c27b0",
     marginBottom: 10,
     fontWeight: "500",
-    textAlign: "left",
+    textAlign: "right",
   },
   smallText: {
     fontSize: 15,
@@ -29,13 +29,9 @@ const styles = StyleSheet.create({
 export default function Index() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "flex-start",
-      }}
+      style={styles.container}
     >
-
+      <Text>Entry Screen - Awesome</Text>
       <Text style={styles.largeText}>Typescript is great if you practice more</Text>
       <Text style={styles.mediumText}>React Native provides you a single codebase for cross platforms</Text>
       <Text style={styles.smallText}>ALX is awesome</Text>
