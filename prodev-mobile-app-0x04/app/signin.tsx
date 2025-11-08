@@ -1,8 +1,8 @@
+import { HEROLOGO } from "@/constants";
 import { styles } from "@/styles/_signin";
 import { FontAwesome, Ionicons } from "@expo/vector-icons";
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
-import { HEROLOGO } from "@/constants";
 
 export default function Index() {
   return (
@@ -12,7 +12,7 @@ export default function Index() {
           <Ionicons name="arrow-back" size={25} />
           <Image source={HEROLOGO} />
         </View>
-        <Text style={styles.largeText}>Sign in to your</Text>
+        <Text style={styles.largeText}>Sign in to your i</Text>
         <Text style={styles.largeText}>Account</Text>
         <Text style={styles.smallText}>
           Enter your email and password to sign in.
